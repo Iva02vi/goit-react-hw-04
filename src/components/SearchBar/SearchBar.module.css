@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  padding: 16px;
+  background-color: #3746ac;
+  box-shadow: 0px 5px 15px #747373;
+}
+.input {
+  background-color: #fff;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  padding-left: 48px;
+  width: 480px;
+  height: 40px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  position: relative;
+}
+
+.button {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+}
